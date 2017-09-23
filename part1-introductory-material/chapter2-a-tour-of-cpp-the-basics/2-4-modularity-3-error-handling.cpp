@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-/**
-Invariants: statements of what is assumed to be true for a class. Invariants
+/** 2.4.3.2. Invariants
+Statements of what is assumed to be true for a class. Invariants
 help us to understand precisely what we want, and force us to be specific; that
 gives us a better chance of getting our code correct (after debugging and testing).
 */
@@ -48,7 +48,7 @@ int main() {
   return 0;
 }
 
-/**
+/** 2.4.3.3. Static Assertion
 The static_assert mechanism can be used for anything that can be expressed
 in terms of constant expressions. In general, static_assert(A, S) prints S
 as a compiler error message if A is not true. */
