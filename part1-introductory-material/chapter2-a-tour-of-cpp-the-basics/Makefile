@@ -2,7 +2,7 @@ CC=g++ -std=c++11
 BIN=bin
 
 default:
-	echo "Chapter 1. A Tour of C++: The Basics"
+	echo "Chapter 2. A Tour of C++: The Basics"
 
 2-2-1-hello: $(BIN)/2-2-1-hello.out
 	./$<
