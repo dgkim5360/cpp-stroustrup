@@ -1,0 +1,5 @@
+{ "John Marwood Cleese", 123456 }
+{ "Michael Edward Palin", 98754 }
+{ "David Hume", 123456 }
+{ "Karl Popper", 234567 }
+{ "Bertrand Arthur William Russell", 345678 }
