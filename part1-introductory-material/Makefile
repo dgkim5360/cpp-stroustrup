@@ -1,4 +1,5 @@
 CH2=chapter2-a-tour-of-cpp-the-basics
+CH3=chapter3-a-tour-of-cpp-abstraction-mechanisms
 CH4=chapter4-a-tour-of-cpp-containers-and-algorithms
 
 default:
@@ -30,6 +31,25 @@ default:
 
 2-4-3-error-handling:
 	$(MAKE) -C $(CH2) $@
+
+
+3-2-1-complex:
+	$(MAKE) -C $(CH3) $@
+
+3-2-2-containers:
+	$(MAKE) -C $(CH3) $@
+
+3-4-1-vector:
+	$(MAKE) -C $(CH3) $@
+
+3-4-2-sum:
+	$(MAKE) -C $(CH3) $@
+
+3-4-3-functor:
+	$(MAKE) -C $(CH3) $@
+
+3-4-4-printf:
+	$(MAKE) -C $(CH3) $@
 
 
 4-2-string:
@@ -71,4 +91,5 @@ default:
 
 clean:
 	$(MAKE) -C $(CH2) $@
+	$(MAKE) -C $(CH3) $@
 	$(MAKE) -C $(CH4) $@
