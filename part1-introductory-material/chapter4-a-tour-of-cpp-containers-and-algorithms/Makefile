@@ -2,7 +2,7 @@ CC=g++ -std=c++11
 BIN=bin
 
 default:
-	echo "Chapter 4: A Tour of C++: Containers and Algorithms"
+	echo "Chapter 4. A Tour of C++: Containers and Algorithms"
 
 
 4-2-string: $(BIN)/4-2-string.out
@@ -40,7 +40,7 @@ default:
 
 4-5-6-sort: $(BIN)/4-5-6-sort.out
 	./$< < $(BIN)/book-entries.txt
-	
+
 
 $(BIN)/4-2-string.out: 4-2-strings.cpp
 	$(CC) -o $@ $<
